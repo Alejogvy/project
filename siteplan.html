@@ -37,7 +37,15 @@
 
         <section class="locations">
             <h2>Find the Nearest Location to You</h2>
-            <input type="search" placeholder="Check our locations">
+            <label for="locations">Check your locations:</label>
+            <select id="locations" name="locations" multiple>
+                <option value="quito">Quito</option>
+                <option value="guayaquil">Guayaquil</option>
+                <option value="cuenca">Cuenca</option>
+                <option value="ambato">Ambato</option>
+                <option value="manabi">Manabí</option>
+                <option value="santo-domingo">Santo Domingo</option>
+            </select>
         </section>
 
         <section class="plans">
@@ -46,8 +54,8 @@
                 <thead>
                     <tr>
                         <th></th>
-                        <th>PLAN Black</th>
-                        <th>PLAN Smart</th>
+                        <th>PLAN Black - $21.99</th>
+                        <th>PLAN Smart - $29.99</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -93,7 +101,7 @@
                     </tr>
                 </tbody>
             </table>
-            <button>Sign Up Now!</button>
+            <button onclick="location.href='contact.html'">Sign Up Now!</button>
         </section>
 
         <section class="needs">
@@ -112,13 +120,12 @@
                     <p>Integrated Weight</p>
                 </div>
             </div>
-            <button>Sign Up Now!</button>
         </section>
 
         <section class="classes">
             <h2>Discover Our Bee Fit Group Classes</h2>
             <div class="class">
-                <h3>Bee Rumba</h3>
+                <h3>BEE RUMBA</h3>
                 <img src="images/bee-rumba.webp" alt="Bee Rumba" class="full-width-img">
                 <p>Integrated Weight</p>
                 <p>Duration: 50-60 min</p>
@@ -126,7 +133,7 @@
                 <p>Bee Fit's rumba classes are ideal for energetic people.</p>
             </div>
             <div class="class">
-                <h3>Bee Shape</h3>
+                <h3>BEE SHAPE</h3>
                 <img src="images/bee-shape.webp" alt="Bee Shape" class="full-width-img">
                 <p>Integrated Weight</p>
                 <p>Duration: 50-60 min</p>
@@ -134,14 +141,14 @@
                 <p>Our exclusive circuit training at Bee Fit combines over 30 minutes of aerobic and anaerobic exercises.</p>
             </div>
             <div class="class">
-                <h3>Bee Combat</h3>
+                <h3>BEE COMBAT</h3>
                 <img src="images/bee-combat.webp" alt="Bee Combat" class="full-width-img">
                 <p>Integrated Weight</p>
                 <p>Duration: 50-60 min</p>
                 <p>Intensity: High</p>
                 <p>Training that combines boxing and martial arts techniques.</p>
             </div>
-            <button>Sign Up Now!</button>
+            <button onclick="location.href='contact.html'">Sign Up Now!</button>
         </section>
 
         <section class="app">
